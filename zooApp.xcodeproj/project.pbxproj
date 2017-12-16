@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C5E7A2311FE5507A0049CDE5 /* Animal.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E7A2301FE5507A0049CDE5 /* Animal.swift */; };
 		C5FDFB811FE5483600458E12 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5FDFB801FE5483600458E12 /* AppDelegate.swift */; };
 		C5FDFB831FE5483600458E12 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5FDFB821FE5483600458E12 /* ViewController.swift */; };
 		C5FDFB861FE5483600458E12 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5FDFB841FE5483600458E12 /* Main.storyboard */; };
@@ -14,6 +15,8 @@
 		C5FDFB8B1FE5483600458E12 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5FDFB891FE5483600458E12 /* LaunchScreen.storyboard */; };
 		C5FDFB961FE5483700458E12 /* zooAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5FDFB951FE5483700458E12 /* zooAppTests.swift */; };
 		C5FDFBA11FE5483700458E12 /* zooAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5FDFBA01FE5483700458E12 /* zooAppUITests.swift */; };
+		C5FDFBAF1FE54DD100458E12 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5FDFBAE1FE54DD100458E12 /* ViewController2.swift */; };
+		C5FDFBB11FE54F2000458E12 /* CustonCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5FDFBB01FE54F2000458E12 /* CustonCellTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C5E7A2301FE5507A0049CDE5 /* Animal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animal.swift; sourceTree = "<group>"; };
 		C5FDFB7D1FE5483600458E12 /* zooApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = zooApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5FDFB801FE5483600458E12 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C5FDFB821FE5483600458E12 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +51,8 @@
 		C5FDFB9C1FE5483700458E12 /* zooAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = zooAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5FDFBA01FE5483700458E12 /* zooAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = zooAppUITests.swift; sourceTree = "<group>"; };
 		C5FDFBA21FE5483700458E12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5FDFBAE1FE54DD100458E12 /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		C5FDFBB01FE54F2000458E12 /* CustonCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustonCellTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +106,9 @@
 				C5FDFB801FE5483600458E12 /* AppDelegate.swift */,
 				C5FDFB821FE5483600458E12 /* ViewController.swift */,
 				C5FDFB841FE5483600458E12 /* Main.storyboard */,
+				C5FDFBB01FE54F2000458E12 /* CustonCellTableViewCell.swift */,
+				C5E7A2301FE5507A0049CDE5 /* Animal.swift */,
+				C5FDFBAE1FE54DD100458E12 /* ViewController2.swift */,
 				C5FDFB871FE5483600458E12 /* Assets.xcassets */,
 				C5FDFB891FE5483600458E12 /* LaunchScreen.storyboard */,
 				C5FDFB8C1FE5483600458E12 /* Info.plist */,
@@ -261,6 +270,9 @@
 			files = (
 				C5FDFB831FE5483600458E12 /* ViewController.swift in Sources */,
 				C5FDFB811FE5483600458E12 /* AppDelegate.swift in Sources */,
+				C5FDFBAF1FE54DD100458E12 /* ViewController2.swift in Sources */,
+				C5FDFBB11FE54F2000458E12 /* CustonCellTableViewCell.swift in Sources */,
+				C5E7A2311FE5507A0049CDE5 /* Animal.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
